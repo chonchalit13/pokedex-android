@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/padding_10dp"
+    app:cardBackgroundColor="@color/gray"
+    app:cardCornerRadius="@dimen/padding_10dp"
+    app:cardElevation="2dp"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="@dimen/padding_5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideLineCenter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.3" />
+
+        <ImageView
+            android:id="@+id/imgPokemon"
+            android:layout_width="100dp"
+            android:layout_height="128dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/guideLineCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/ic_add" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/padding_10dp"
+            android:paddingEnd="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideLineCenter"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:id="@+id/lnTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="5"
+                android:gravity="center_vertical"
+                app:layout_constraintBottom_toTopOf="@+id/tvHp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_weight="3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/tvPokemonName"
+                    style="@style/black_16sp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    tools:text="@string/label_pokemon" />
+
+                <TextView
+                    android:id="@+id/tvAdd"
+                    style="@style/red_16sp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="@string/label_add" />
+
+                <ImageView
+                    android:id="@+id/imgDelete"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_close"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideLineDetail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.25" />
+
+            <TextView
+                android:id="@+id/tvHp"
+                style="@style/black_16sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/label_hp"
+                app:layout_constraintBottom_toTopOf="@+id/tvStr"
+                app:layout_constraintEnd_toEndOf="@+id/guideLineDetail"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lnTitle" />
+
+            <ProgressBar
+                android:id="@+id/progressHp"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:indeterminate="false"
+                android:max="100"
+                android:paddingStart="@dimen/padding_5dp"
+                android:paddingTop="@dimen/padding_8dp"
+                android:paddingEnd="@dimen/padding_10dp"
+                android:paddingBottom="@dimen/padding_8dp"
+                android:progressDrawable="@drawable/progress_style"
+                app:layout_constraintBottom_toBottomOf="@+id/tvHp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/guideLineDetail"
+                app:layout_constraintTop_toTopOf="@+id/tvHp" />
+
+            <TextView
+                android:id="@+id/tvStr"
+                style="@style/black_16sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/label_str"
+                app:layout_constraintBottom_toTopOf="@+id/tvWeak"
+                app:layout_constraintEnd_toEndOf="@+id/guideLineDetail"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvHp" />
+
+            <ProgressBar
+                android:id="@+id/progressStr"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:indeterminate="false"
+                android:max="100"
+                android:paddingStart="@dimen/padding_5dp"
+                android:paddingTop="@dimen/padding_8dp"
+                android:paddingEnd="@dimen/padding_10dp"
+                android:paddingBottom="@dimen/padding_8dp"
+                android:progressDrawable="@drawable/progress_style"
+                app:layout_constraintBottom_toBottomOf="@+id/tvStr"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/guideLineDetail"
+                app:layout_constraintTop_toTopOf="@+id/tvStr" />
+
+            <TextView
+                android:id="@+id/tvWeak"
+                style="@style/black_16sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/label_weak"
+                app:layout_constraintBottom_toTopOf="@+id/tvRarity"
+                app:layout_constraintEnd_toEndOf="@+id/guideLineDetail"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvStr" />
+
+            <ProgressBar
+                android:id="@+id/progressWeak"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:indeterminate="false"
+                android:max="100"
+                android:paddingStart="@dimen/padding_5dp"
+                android:paddingTop="@dimen/padding_8dp"
+                android:paddingEnd="@dimen/padding_10dp"
+                android:paddingBottom="@dimen/padding_8dp"
+                android:progressDrawable="@drawable/progress_style"
+                app:layout_constraintBottom_toBottomOf="@+id/tvWeak"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/guideLineDetail"
+                app:layout_constraintTop_toTopOf="@+id/tvWeak" />
+
+            <TextView
+                android:id="@+id/tvRarity"
+                style="@style/black_16sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvWeak"
+                tools:text="⭐️⭐️⭐️⭐️⭐⭐" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

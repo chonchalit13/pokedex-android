@@ -1,0 +1,134 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+    id 'jacoco-android'
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+
+    defaultConfig {
+        applicationId "th.co.appman.pokedex"
+        minSdkVersion 22
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("pokedex_keystore")
+            storePassword "AppMan2004zZ"
+            keyAlias "Appman"
+            keyPassword "AppMan2004zZ"
+        }
+
+        debug {
+            storeFile file("pokedex_keystore")
+            storePassword "AppMan2004zZ"
+            keyAlias "Appman"
+            keyPassword "AppMan2004zZ"
+        }
+    }
+
+    buildTypes {
+        release {
+            debuggable false
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+        debug {
+            signingConfig signingConfigs.debug
+            debuggable true
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+
+    testOptions {
+        unitTests.includeAndroidResources = true
+        unitTests.returnDefaultValues = true
+    }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'androidx.core:core-ktx:1.3.2'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    implementation "androidx.cardview:cardview:$androidX.cardview"
+
+    // OkHttp
+    implementation "com.squareup.okhttp3:logging-interceptor:$okhttp3"
+
+    // Gson
+    implementation "com.google.code.gson:gson:$gson"
+
+    // Retrofit
+    implementation "com.squareup.retrofit2:retrofit:$retrofit2"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit2"
+
+    // KTX
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle"
+
+    // Glide
+    implementation "com.github.bumptech.glide:glide:$glide"
+    annotationProcessor "com.github.bumptech.glide:compiler:$glide"
+
+    // Test
+    testImplementation "junit:junit:$test.junit"
+    testImplementation "org.mockito:mockito-core:$test.mockito"
+    testImplementation "org.mockito:mockito-inline:$test.mockito"
+    testImplementation "androidx.test:core:$test.core"
+    testImplementation "androidx.arch.core:core-testing:$test.core_testing"
+    testImplementation "com.squareup.okhttp3:mockwebserver:$okhttp3"
+    testImplementation "org.robolectric:robolectric:$test.robolectric"
+
+    // Jacoco
+    jacocoAnt "org.jacoco:org.jacoco.ant:$jacoco_ant"
+}
+
+tasks.withType(Test) {
+    jacoco.includeNoLocationClasses = true
+    jacoco.excludes = ['jdk.internal.*']
+}
+
+jacoco {
+    toolVersion = "0.8.5"
+}
+
+jacocoAndroidUnitTestReport {
+    excludes += ['**/AutoValue_*.*',
+                 '**/*JavascriptBridge.class',
+                 '**/databinding/*',
+                 '**/models/*',
+                 '**/ui/*',
+                 '**/base/*',
+                 'th/co/appman/pokedex/alert/*',
+                 '**/utils/*LiveData*',
+                 '**/extensions/*View*',
+                 '**/viewmodel/*Factory*',
+                 'th/co/appman/pokedex/view/*']
+    csv.enabled true
+    html.enabled true
+    xml.enabled false
+}

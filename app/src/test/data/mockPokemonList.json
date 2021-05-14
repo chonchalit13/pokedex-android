@@ -1,0 +1,781 @@
+{
+  "cards": [
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "50",
+          "name": "Psychic Burst",
+          "text": ""
+        }
+      ],
+      "hp": 110,
+      "id": "ex8-98",
+      "imageUrl": "https://images.pokemontcg.io/ex8/98.png",
+      "isSelected": false,
+      "name": "Deoxys ex",
+      "rarity": 3,
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "×2"
+        }
+      ]
+    },
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "10",
+          "name": "Headbutt",
+          "text": ""
+        },
+        {
+          "cost": [],
+          "damage": "20",
+          "name": "Bonemerang",
+          "text": ""
+        }
+      ],
+      "hp": 60,
+      "id": "dp6-90",
+      "imageUrl": "https://images.pokemontcg.io/dp6/90.png",
+      "isSelected": false,
+      "name": "Cubone",
+      "rarity": 3,
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "+10"
+        }
+      ]
+    },
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "",
+          "name": "Geomancy",
+          "text": ""
+        },
+        {
+          "cost": [],
+          "damage": "100",
+          "name": "Rainbow Spear",
+          "text": ""
+        }
+      ],
+      "hp": 130,
+      "id": "xyp-XY05",
+      "imageUrl": "https://images.pokemontcg.io/xyp/XY05.png",
+      "isSelected": false,
+      "name": "Xerneas",
+      "rarity": 3,
+      "weaknesses": [
+        {
+          "type": "Metal",
+          "value": "×2"
+        }
+      ]
+    },
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "10",
+          "name": "Absorb",
+          "text": ""
+        },
+        {
+          "cost": [],
+          "damage": "40",
+          "name": "Parboil",
+          "text": ""
+        }
+      ],
+      "hp": 60,
+      "id": "pop9-17",
+      "imageUrl": "https://images.pokemontcg.io/pop9/17.png",
+      "isSelected": false,
+      "name": "Turtwig",
+      "rarity": 3,
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "×2"
+        }
+      ]
+    },
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "",
+          "name": "Mischief",
+          "text": ""
+        },
+        {
+          "cost": [],
+          "damage": "20",
+          "name": "Anger",
+          "text": ""
+        }
+      ],
+      "hp": 40,
+      "id": "base5-61",
+      "imageUrl": "https://images.pokemontcg.io/base5/61.png",
+      "isSelected": false,
+      "name": "Mankey",
+      "rarity": 3,
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "×2"
+        }
+      ]
+    },
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "40",
+          "name": "Knock Off",
+          "text": ""
+        },
+        {
+          "cost": [],
+          "damage": "80",
+          "name": "Pivot Throw",
+          "text": ""
+        }
+      ],
+      "hp": 110,
+      "id": "ex8-100",
+      "imageUrl": "https://images.pokemontcg.io/ex8/100.png",
+      "isSelected": false,
+      "name": "Hariyama ex",
+      "rarity": 4,
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "×2"
+        }
+      ]
+    },
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "50",
+          "name": "Metal Claw",
+          "text": ""
+        },
+        {
+          "cost": [],
+          "damage": "70",
+          "name": "Mix-Up",
+          "text": ""
+        }
+      ],
+      "hp": 110,
+      "id": "ex16-1",
+      "imageUrl": "https://images.pokemontcg.io/ex16/1.png",
+      "isSelected": false,
+      "name": "Aggron",
+      "rarity": 5,
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "×2"
+        }
+      ]
+    },
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "",
+          "name": "Sleep Powder",
+          "text": ""
+        },
+        {
+          "cost": [],
+          "damage": "10",
+          "name": "Poisonpowder",
+          "text": ""
+        }
+      ],
+      "hp": 50,
+      "id": "base5-63",
+      "imageUrl": "https://images.pokemontcg.io/base5/63.png",
+      "isSelected": false,
+      "name": "Oddish",
+      "rarity": 5,
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "×2"
+        }
+      ]
+    },
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "30",
+          "name": "Take Down",
+          "text": ""
+        }
+      ],
+      "hp": 70,
+      "id": "xyp-XY11",
+      "imageUrl": "https://images.pokemontcg.io/xyp/XY11.png",
+      "isSelected": false,
+      "name": "Skiddo",
+      "rarity": 3,
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "×2"
+        }
+      ]
+    },
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "",
+          "name": "Show Off",
+          "text": ""
+        },
+        {
+          "cost": [],
+          "damage": "10",
+          "name": "Payback",
+          "text": ""
+        }
+      ],
+      "hp": 60,
+      "id": "dp6-107",
+      "imageUrl": "https://images.pokemontcg.io/dp6/107.png",
+      "isSelected": false,
+      "name": "Misdreavus",
+      "rarity": 2,
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "+10"
+        }
+      ]
+    },
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "40",
+          "name": "Mat Block",
+          "text": ""
+        },
+        {
+          "cost": [],
+          "damage": "80",
+          "name": "Aqua Edge",
+          "text": ""
+        }
+      ],
+      "hp": 140,
+      "id": "xy0-14",
+      "imageUrl": "https://images.pokemontcg.io/xy0/14.png",
+      "isSelected": false,
+      "name": "Greninja",
+      "rarity": 3,
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "×2"
+        }
+      ]
+    },
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "20",
+          "name": "Water Gun",
+          "text": ""
+        }
+      ],
+      "hp": 70,
+      "id": "xy0-15",
+      "imageUrl": "https://images.pokemontcg.io/xy0/15.png",
+      "isSelected": false,
+      "name": "Clauncher",
+      "rarity": 1,
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "×2"
+        }
+      ]
+    },
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "10",
+          "name": "Magnetic Force",
+          "text": ""
+        }
+      ],
+      "hp": 70,
+      "id": "ex16-16",
+      "imageUrl": "https://images.pokemontcg.io/ex16/16.png",
+      "isSelected": false,
+      "name": "Magneton",
+      "rarity": 3,
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "×2"
+        }
+      ]
+    },
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "10",
+          "name": "Peck",
+          "text": ""
+        }
+      ],
+      "hp": 60,
+      "id": "xy0-18",
+      "imageUrl": "https://images.pokemontcg.io/xy0/18.png",
+      "isSelected": false,
+      "name": "Inkay",
+      "rarity": 3,
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "×2"
+        }
+      ]
+    },
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "20",
+          "name": "Spiral Blast",
+          "text": ""
+        }
+      ],
+      "hp": 100,
+      "id": "ex8-102",
+      "imageUrl": "https://images.pokemontcg.io/ex8/102.png",
+      "isSelected": false,
+      "name": "Rayquaza ex",
+      "rarity": 5,
+      "weaknesses": [
+        {
+          "type": "Colorless",
+          "value": "×2"
+        }
+      ]
+    },
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "40",
+          "name": "Hard Bite",
+          "text": ""
+        }
+      ],
+      "hp": 90,
+      "id": "xy0-17",
+      "imageUrl": "https://images.pokemontcg.io/xy0/17.png",
+      "isSelected": false,
+      "name": "Mightyena",
+      "rarity": 3,
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "×2"
+        }
+      ]
+    },
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "10",
+          "name": "Pierce",
+          "text": ""
+        },
+        {
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "20",
+          "name": "Cut",
+          "text": ""
+        }
+      ],
+      "hp": 60,
+      "id": "xy0-19",
+      "imageUrl": "https://images.pokemontcg.io/xy0/19.png",
+      "isSelected": false,
+      "name": "Pawniard",
+      "rarity": 2,
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "×2"
+        }
+      ]
+    },
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "10",
+          "name": "Tackle",
+          "text": ""
+        },
+        {
+          "cost": [],
+          "damage": "40",
+          "name": "Selfdestruct",
+          "text": ""
+        }
+      ],
+      "hp": 50,
+      "id": "dp6-113",
+      "imageUrl": "https://images.pokemontcg.io/dp6/113.png",
+      "isSelected": false,
+      "name": "Pineco",
+      "rarity": 4,
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+10"
+        }
+      ]
+    },
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "20",
+          "name": "Powder Snow",
+          "text": ""
+        },
+        {
+          "cost": [],
+          "damage": "60",
+          "name": "Double-edge",
+          "text": ""
+        }
+      ],
+      "hp": 80,
+      "id": "ex16-30",
+      "imageUrl": "https://images.pokemontcg.io/ex16/30.png",
+      "isSelected": false,
+      "name": "Glalie",
+      "rarity": 3,
+      "weaknesses": [
+        {
+          "type": "Metal",
+          "value": "×2"
+        }
+      ]
+    },
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "20",
+          "name": "Power Heater",
+          "text": ""
+        },
+        {
+          "cost": [],
+          "damage": "100",
+          "name": "Steam Artillery",
+          "text": ""
+        }
+      ],
+      "hp": 130,
+      "id": "xy11-25",
+      "imageUrl": "https://images.pokemontcg.io/xy11/25.png",
+      "isSelected": false,
+      "name": "Volcanion",
+      "rarity": 1,
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "×2"
+        }
+      ]
+    },
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "20",
+          "name": "Eerie Wave",
+          "text": ""
+        },
+        {
+          "cost": [],
+          "damage": "90",
+          "name": "Wood Hammer",
+          "text": ""
+        }
+      ],
+      "hp": 110,
+      "id": "xyp-XY14",
+      "imageUrl": "https://images.pokemontcg.io/xyp/XY14.png",
+      "isSelected": false,
+      "name": "Trevenant",
+      "rarity": 3,
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "×2"
+        }
+      ]
+    },
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "",
+          "name": "Flame Jet",
+          "text": ""
+        },
+        {
+          "cost": [],
+          "damage": "120",
+          "name": "Bright Flame",
+          "text": ""
+        }
+      ],
+      "hp": 160,
+      "id": "ex8-103",
+      "imageUrl": "https://images.pokemontcg.io/ex8/103.png",
+      "isSelected": false,
+      "name": "Salamence ex",
+      "rarity": 3,
+      "weaknesses": [
+        {
+          "type": "Colorless",
+          "value": "×2"
+        }
+      ]
+    },
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "20",
+          "name": "Eruption",
+          "text": ""
+        },
+        {
+          "cost": [],
+          "damage": "30",
+          "name": "Combustion",
+          "text": ""
+        }
+      ],
+      "hp": 70,
+      "id": "hgss4-42",
+      "imageUrl": "https://images.pokemontcg.io/hgss4/42.png",
+      "isSelected": false,
+      "name": "Magmar",
+      "rarity": 3,
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "×2"
+        }
+      ]
+    },
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "20",
+          "name": "Granite Head",
+          "text": ""
+        },
+        {
+          "cost": [],
+          "damage": "30",
+          "name": "Stomp",
+          "text": ""
+        }
+      ],
+      "hp": 70,
+      "id": "ex16-32",
+      "imageUrl": "https://images.pokemontcg.io/ex16/32.png",
+      "isSelected": false,
+      "name": "Lairon",
+      "rarity": 3,
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "×2"
+        }
+      ]
+    },
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "",
+          "name": "Hard Feelings",
+          "text": ""
+        }
+      ],
+      "hp": 120,
+      "id": "dp1-2",
+      "imageUrl": "https://images.pokemontcg.io/dp1/2.png",
+      "isSelected": false,
+      "name": "Dusknoir",
+      "rarity": 5,
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "+30"
+        }
+      ]
+    },
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "10",
+          "name": "Draining Kiss",
+          "text": ""
+        }
+      ],
+      "hp": 60,
+      "id": "xy0-24",
+      "imageUrl": "https://images.pokemontcg.io/xy0/24.png",
+      "isSelected": false,
+      "name": "Swirlix",
+      "rarity": 3,
+      "weaknesses": [
+        {
+          "type": "Metal",
+          "value": "×2"
+        }
+      ]
+    },
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "30",
+          "name": "Slash",
+          "text": ""
+        }
+      ],
+      "hp": 70,
+      "id": "xy0-25",
+      "imageUrl": "https://images.pokemontcg.io/xy0/25.png",
+      "isSelected": false,
+      "name": "Farfetch\u0027d",
+      "rarity": 2,
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "×2"
+        }
+      ]
+    },
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "10",
+          "name": "Rock Smash",
+          "text": ""
+        },
+        {
+          "cost": [],
+          "damage": "70",
+          "name": "Strength",
+          "text": ""
+        }
+      ],
+      "hp": 120,
+      "id": "xy0-26",
+      "imageUrl": "https://images.pokemontcg.io/xy0/26.png",
+      "isSelected": false,
+      "name": "Snorlax",
+      "rarity": 2,
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "×2"
+        }
+      ]
+    },
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "",
+          "name": "Corner",
+          "text": ""
+        },
+        {
+          "cost": [],
+          "damage": "10",
+          "name": "Ambush",
+          "text": ""
+        }
+      ],
+      "hp": 50,
+      "id": "dp6-116",
+      "imageUrl": "https://images.pokemontcg.io/dp6/116.png",
+      "isSelected": false,
+      "name": "Poochyena",
+      "rarity": 3,
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+10"
+        }
+      ]
+    },
+    {
+      "attacks": [
+        {
+          "cost": [],
+          "damage": "60",
+          "name": "Giga Impact",
+          "text": ""
+        }
+      ],
+      "hp": 100,
+      "id": "dp1-3",
+      "imageUrl": "https://images.pokemontcg.io/dp1/3.png",
+      "isSelected": false,
+      "name": "Electivire",
+      "rarity": 1,
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ]
+    }
+  ]
+}
