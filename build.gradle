@@ -3,11 +3,11 @@ buildscript {
     ext {
         kotlin_version = "1.4.20"
 
-        lifecycle = '2.2.0'
+        lifecycle = '2.3.1'
         okhttp3 = '4.9.0'
         gson = '2.8.6'
         retrofit2 = '2.9.0'
-        glide = '4.11.0'
+        glide = '4.12.0'
 
         androidX = [
                 cardview: '1.0.0'
@@ -16,9 +16,9 @@ buildscript {
         test = [
                 core            : '1.3.0',
                 core_testing    : '2.1.0',
-                junit           : '4.13.1',
+                junit           : '4.13.2',
                 mockito         : '3.5.13',
-                robolectric     : '4.3'
+                robolectric     : '4.4'
         ]
 
         jacoco_ant = '0.8.6:nodeps'
@@ -28,11 +28,10 @@ buildscript {
         mavenCentral()
         maven { url 'https://oss.jfrog.org/artifactory/oss-snapshot-local' }
         google()
-        jcenter()
     }
 
     dependencies {
-        classpath "com.android.tools.build:gradle:4.1.1"
+        classpath 'com.android.tools.build:gradle:4.2.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath 'com.dicedmelon.gradle:jacoco-android:0.1.5-SNAPSHOT'
         // NOTE: Do not place your application dependencies here; they belong
@@ -44,7 +43,6 @@ allprojects {
     repositories {
         mavenCentral()
         google()
-        jcenter()
     }
 }
 

@@ -7,31 +7,31 @@ plugins {
 
 android {
     compileSdkVersion 30
-    buildToolsVersion "30.0.2"
+    buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "th.co.appman.pokedex"
+        applicationId "th.co.toei.pokedex"
         minSdkVersion 22
         targetSdkVersion 30
-        versionCode 1
-        versionName "1.0"
+        versionCode 12
+        versionName "1.2"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
     signingConfigs {
         release {
-            storeFile file("pokedex_keystore")
-            storePassword "AppMan2004zZ"
-            keyAlias "Appman"
-            keyPassword "AppMan2004zZ"
+            storeFile file("pokedex-keystore")
+            storePassword "Chonchalit@13"
+            keyAlias "Chonchalit"
+            keyPassword "Chonchalit@13"
         }
 
         debug {
-            storeFile file("pokedex_keystore")
-            storePassword "AppMan2004zZ"
-            keyAlias "Appman"
-            keyPassword "AppMan2004zZ"
+            storeFile file("pokedex-keystore")
+            storePassword "Chonchalit@13"
+            keyAlias "Chonchalit"
+            keyPassword "Chonchalit@13"
         }
     }
 
@@ -67,9 +67,9 @@ android {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    implementation 'androidx.core:core-ktx:1.3.2'
-    implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.core:core-ktx:1.5.0'
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    implementation 'com.google.android.material:material:1.3.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'

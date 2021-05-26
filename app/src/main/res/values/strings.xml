@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PokeDex</string>
+    <string name="app_name">PokeDexUltra</string>
 
     <string name="label_pokemon">Pokemon</string>
     <string name="label_add">Add</string>
